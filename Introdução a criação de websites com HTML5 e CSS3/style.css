@@ -1,20 +1,67 @@
-body{
-    background-color: #ccc;
+html{
+    font-family: 'Open Sans', sans-serif;
 }
+
+.photo{
+    border: 1px solid black;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+}
+
+body{
+    background-color: rgb(235, 235, 235);
+    margin: auto;
+    max-width: 900px;
+}
+
 
 #title, .subtitulo, .titulo_postagem{
     color: blue;
+    text-align: center;
 
 }
 
 .titulo_postagem {
     font-size: 16px;
     font-style: italic;
+    margin: 0%;
 }
 
 .post {
     background-color: white;
-    padding: 10px;
+    padding: 15px;
     border: 3px solid black;
-    margin: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.post_content {
+    margin: 0%;
+}
+
+.post_img{
+    margin-bottom: 15px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.name_contacts{
+    text-align: center;
+    font-style:initial;
+}
+
+.contacts{
+    list-style-type: none;
+    margin: 0% ;
+    padding: 0%;
+    text-align: center;
+    font-style: unset;
+}
+
+.contacts li a {
+    text-decoration: none;
+    color: black
 }
